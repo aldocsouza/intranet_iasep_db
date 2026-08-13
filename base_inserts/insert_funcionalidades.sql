@@ -68,7 +68,7 @@ WHERE cod_funcionalidade = 4;
 
 
 /* VINCULA AS FUNCIONALIDADES AOS PERFIS */
-/* PERFIL: ADMINISTRADOR */
+/************************************************************************ PERFIL: ADMINISTRADOR ************************************************************************/
 INSERT INTO seg_perfil_funcionalidade
 (cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
 VALUES (1, 1, 1, 1, 1);
@@ -125,7 +125,7 @@ INSERT INTO seg_perfil_funcionalidade
 (cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
 VALUES (1, 14, 1, 1, 1);
 
-/* PERFIL: FUNCIONARIO */
+/************************************************************************ PERFIL: FUNCIONARIO ************************************************************************/
 INSERT INTO seg_perfil_funcionalidade
 (cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
 VALUES (2, 1, 1, 0, 0);
@@ -181,3 +181,60 @@ VALUES (2, 13, 1, 0, 0);
 INSERT INTO seg_perfil_funcionalidade
 (cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
 VALUES (2, 14, 1, 0, 0);
+
+/************************************************************************ PERFIL: RECURSOS HUMANSO ************************************************************************/
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 1, 0, 0, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 2, 0, 0, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 3, 0, 0, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 4, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 5, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 6, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 7, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 8, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 9, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 10, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 11, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 12, 1, 1, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 13, 0, 0, 0);
+
+INSERT INTO seg_perfil_funcionalidade
+(cod_perfil, cod_funcionalidade, leitura, escrita, excluir)
+VALUES (3, 14, 1, 1, 0);
